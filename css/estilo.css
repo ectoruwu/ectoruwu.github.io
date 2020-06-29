@@ -1,0 +1,32 @@
+body {
+  padding-top: 60px;
+}
+.maincont {
+  display: flex;
+  background-color: lightskyblue;
+  transition: opacity 5s;
+}
+.maincont.pri {
+  height: 300vh;
+}
+.item {
+  margin: 20px;
+  order: 5;
+  flex-grow: 4;
+}
+/*animacion de contenido */
+.watched {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.watched.animated {
+  opacity: 1;
+}
+/*animacion de navbar */
+.fadein {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.fadein.fadeout {
+  opacity: 0;
+}
