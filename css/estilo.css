@@ -8,9 +8,6 @@ body {
   transition: opacity 5s;
 }
 
-.nuev {
-  background-color: rgba(20, 20, 02, 0.7);
-}
 .maincont.pri {
   height: 300vh;
 }
